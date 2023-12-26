@@ -1,0 +1,24 @@
+<script setup>
+import { RouterView } from "vue-router";
+import TodoHeader from "./components/TodoHeader.vue";
+</script>
+
+<template>
+  <TodoHeader />
+  <RouterView />
+</template>
+<style lan="scss">
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Rubik:wght@300;400;500;700&display=swap");
+
+* {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+</style>
